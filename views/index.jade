@@ -1,0 +1,27 @@
+extends layout
+
+block content
+	h1= title
+
+	input#items(type="text" name="itemname"  placeholder="Items")
+	br
+	input#numofchunks(type="text" name="chunknumber" placeholder="Chunk size")
+	br
+	input#submitbtn(type="button" value="Submit")
+	ul#results
+
+	include template.html
+
+
+
+
+
+
+
+
+
+
+
+	script(src='http://code.jquery.com/jquery-2.0.3.min.js')
+	script(src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js")
+	script(src='/javascripts/client.js')

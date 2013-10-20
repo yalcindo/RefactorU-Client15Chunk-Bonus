@@ -1,0 +1,35 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.chunk-div{
+	height:100px;
+	width:100px;
+	background-color:peachpuff;
+	text-align: center;
+	border-radius:100px;
+   margin-top:-20px;
+  
+    
+}
+.chunk-inner{
+	
+	 height:100px;
+	width:100px;
+	border-radius:100px;
+    vertical-align:middle;
+   
+    
+}
+.chunk-text{
+	padding-top:20px;
+}
+.wrapper{
+
+	float:left;
+	margin-left: 10px;
+}
